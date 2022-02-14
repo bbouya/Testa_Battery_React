@@ -14,9 +14,9 @@ const TeslaCar = (props) => (
     </div>
 );
 
-TeslaCar.prototypes = {
-    wheelsize: React.prototype.number
-}
+//TeslaCar.prototypes = {
+  //  wheelsize: React.prototype.number
+//}
 export default TeslaCar;
 
 // Here we specify prototypes using the react Built-in type checking.
