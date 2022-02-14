@@ -25,5 +25,10 @@ This is a useful pattern that can be used when developing an application with Re
  ## TeslaBattery Container :
  In our app, the TeslaBattery component is responsible for creating and managing data and state as container component, passing it to other Presentational Components, Performing a callback function and changing its sate.
 
+ ## State of application 
+ We need to think about what state is requited to be managed in our app, if you look at the final app GIF image at the top of this article, the state values are :
+    // Carstats(object array) : An array of battery numerical value objects by car model according to the currently selected condition value(speed, temperature, climate, wheel)
+    // config(object): currently selcted conditions object(speed :55, temperature 20 , climate: aricon on , wheel : 19)
+    
 
- 
+
