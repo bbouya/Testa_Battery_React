@@ -9,6 +9,7 @@ In the above mentioned component tree, we can see that it is classified as Conta
 
 This is a useful pattern that can be used when developing an application with React. It is easier to reuse by dividing components into two categories.
 
+
 * Container Component (stateful component):
  - Are concerned with how things work.
  - In general, except for some wrapping divs, they do not have their   own DOM markup and have no style.
